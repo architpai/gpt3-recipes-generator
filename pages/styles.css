@@ -10,6 +10,8 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
     background-color: rgb(0, 0, 0);
     flex-flow: column nowrap;
     gap: 10px;
@@ -35,7 +37,7 @@ body {
     gap: 64px;
 }
 
-.header {    
+.header {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -119,7 +121,7 @@ textarea {
 
 
 .prompt-box:focus {
-    border-color:rgba(255, 255, 255, 0.75)
+    border-color: rgba(255, 255, 255, 0.75)
 }
 
 
@@ -372,7 +374,8 @@ textarea {
         text-align: center;
     }
 
-    .key-stroke, .or {
+    .key-stroke,
+    .or {
         display: none;
     }
 
@@ -392,7 +395,7 @@ textarea {
 
 
 
- /* Loading ring animation */
+/* Loading ring animation */
 .loader {
     width: 18px;
     height: 18px;
