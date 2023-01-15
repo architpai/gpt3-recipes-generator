@@ -41,7 +41,7 @@ const Home = () => {
             <h1>Find Your Next Meal in Seconds - With GPT-3</h1>
           </div>
           <div className="header-subtitle">
-            <h2>List the ingredients you have in your refrigerator or If you'd some thing a bit more fancy give us an elobarate list of ingredients you like and we'll generate a recipe just for you.<br></br>So what are you waiting for Let's get cooking!</h2>
+            <h2>List the ingredients you have in your refrigerator or If you'd like something a bit more fancy give us an elobarate list of ingredients and we'll generate a recipe just for you.<br></br>So what are you waiting for Let's get cooking!</h2>
           </div>
         </div>
         {/*Text Input from user */}
